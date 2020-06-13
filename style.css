@@ -1,0 +1,55 @@
+body {
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+    /* background-image: url(images/background.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-color: #268e2ba1;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    color: #020c02;
+}
+
+table {
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+}
+
+table th {
+    border-bottom: 3px solid #5a2a07;
+}
+
+tr td {
+    border-bottom: 1px solid #5a2a07;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.movies-list-container {
+    background: rgb(38, 142, 43);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    color: #020c02;
+}
+
+.option-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+select {
+    margin-left: 10px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'Sriracha', cursive;
+    background-color: #268e2b;
+    color: #020c02;
+}

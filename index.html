@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Movies Database</h2>
+    <div class="option-container">
+        <label for="movie-sorting">Sort By </label>
+        <select class="sort-filter" id="sort-filter" onchange="sortAttr();">
+            <option value=""></option>
+            <option value="rank">Rank</option>
+            <option value="id">ID</option>
+            <option value="title">Title</option>
+        </select>
+    </div>
+    <div class="movies-list-container">
+        <table class="movies-list">
+            <th>Id</th>
+            <th>Title</th>
+            <th>Rank</th>
+            <tr>
+                <td>id001001</td>
+                <td>Despicable Me</td>
+                <td>10</td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
